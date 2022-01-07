@@ -1,0 +1,263 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 28, 2021 - 17:32:41
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://127.0.0.1:50001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 28, 2021 - 17:34:18
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://localhost:50001/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 28, 2021 - 17:49:18
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://192.168.1.190:50001/
+Quit the server with CONTROL-C.
+[28/Dec/2021 17:49:36] "GET /v/fetch HTTP/1.1" 302 0
+[28/Dec/2021 17:49:37] "GET /v/ HTTP/1.1" 200 2121993
+{'data': {'itemId': '2693120', 'applicationjson': '{"app_name":"livehttporigin","ingest_url":"rtmp://streamlive2.toprankers.com:1935"}', 'primPlaybackUrl': 'https://signedsec.toprankers.com/livehttporigin/2693120/2693120-pr-computer-science-os-class-10--10000-1615959751488/master.m3u8', 'secPlaybackUrl': None, 'chatGroupId': '2402', 'userId': '3701714', 'startDate': '2021-03-17 17:00:00', 'endDate': '2021-03-17 18:32:57', 'state': '5', 'drmState': '0', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'serverConfigId': '-100', 'applicationName': 'livehttporigin', 'urlPostFix': '/playlist.m3u8', 'primaryStream': '2693120-pr-computer-science-os-class-10--10000-1615959751488', 'hostUrl': 'https://streamlive2cdn.toprankers.com', 'classroomHostUrl': 'rtmp://internal.toprankers.com:1935', 'isLiveCDN': '1', 'secureLiveUsingCookie': True, 'isDRM': 0, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:49:39] "POST /v/fetch HTTP/1.1" 200 1291
+/home/manu/Desktop/Server/live/project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 28, 2021 - 17:50:10
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://192.168.1.190:50001/
+Quit the server with CONTROL-C.
+[28/Dec/2021 17:50:18] "GET / HTTP/1.1" 200 2121993
+[28/Dec/2021 17:50:47] "GET /static/tailwind.js HTTP/1.1" 200 310920
+[28/Dec/2021 17:50:47] "GET / HTTP/1.1" 200 2121993
+Not Found: /favicon.ico
+[28/Dec/2021 17:50:49] "GET /favicon.ico HTTP/1.1" 404 2781
+{'data': {'itemId': '2598515', 'applicationName': 'vidustreaming', 'classUrl': 'computer-science-os-class-3-2598515', 'primaryStream': '2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138', 'streamOne': '', 'urlPostFix': '/playlist.m3u8', 'primPlaybackUrl': 'https://slhdovces.toprankers.com/vidustreaming/2598515/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138.m3u8', 'secPlaybackUrl': '', 'userId': '3701714', 'startDate': '2021-02-15 17:00:00', 'endDate': '2021-02-15 18:23:10', 'state': '5', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:50:50] "POST /fetch HTTP/1.1" 200 1492
+{'data': {'itemId': '2598515', 'applicationName': 'vidustreaming', 'classUrl': 'computer-science-os-class-3-2598515', 'primaryStream': '2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138', 'streamOne': '', 'urlPostFix': '/playlist.m3u8', 'primPlaybackUrl': 'https://slhdovces.toprankers.com/vidustreaming/2598515/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138.m3u8', 'secPlaybackUrl': '', 'userId': '3701714', 'startDate': '2021-02-15 17:00:00', 'endDate': '2021-02-15 18:23:10', 'state': '5', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:51:04] "POST /fetch HTTP/1.1" 200 1492
+{'data': {'itemId': '2713333', 'applicationjson': '{"app_name":"livehttporigin","ingest_url":"rtmp://streamlive2.toprankers.com:1935"}', 'primPlaybackUrl': 'https://signedsec.toprankers.com/livehttporigin/2713333/2713333-pr-computer-science-computer-organization-class-2--10000-1616329618168/master.m3u8', 'secPlaybackUrl': None, 'chatGroupId': '2402', 'userId': '3701714', 'startDate': '2021-03-22 17:00:00', 'endDate': '2021-03-22 18:42:27', 'state': '5', 'drmState': '0', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'serverConfigId': '-100', 'applicationName': 'livehttporigin', 'urlPostFix': '/playlist.m3u8', 'primaryStream': '2713333-pr-computer-science-computer-organization-class-2--10000-1616329618168', 'hostUrl': 'https://streamlive2cdn.toprankers.com', 'classroomHostUrl': 'rtmp://internal.toprankers.com:1935', 'isLiveCDN': '1', 'secureLiveUsingCookie': True, 'isDRM': 0, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:51:22] "POST /fetch HTTP/1.1" 200 1363
+[28/Dec/2021 17:51:38] "GET / HTTP/1.1" 200 2121993
+[28/Dec/2021 17:51:54] "GET / HTTP/1.1" 200 2121993
+{'data': {'itemId': '2598515', 'applicationName': 'vidustreaming', 'classUrl': 'computer-science-os-class-3-2598515', 'primaryStream': '2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138', 'streamOne': '', 'urlPostFix': '/playlist.m3u8', 'primPlaybackUrl': 'https://slhdovces.toprankers.com/vidustreaming/2598515/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138/2598515-pr-computer-science-os-class-3-vidustreaming-1613284383138.m3u8', 'secPlaybackUrl': '', 'userId': '3701714', 'startDate': '2021-02-15 17:00:00', 'endDate': '2021-02-15 18:23:10', 'state': '5', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:51:59] "POST /fetch HTTP/1.1" 200 1492
+[H[2J[3J[28/Dec/2021 17:52:42] "GET /fetch_all HTTP/1.1" 200 60
+[28/Dec/2021 17:52:51] "GET / HTTP/1.1" 200 2121993
+{'data': {'itemId': '3828711', 'applicationjson': '{"app_name":"livehttporigin","ingest_url":"rtmp://streamlive2.toprankers.com:1935"}', 'primPlaybackUrl': 'https://signedsec.toprankers.com/livehttporigin/3828711/3828711-pr-computer-science-computer-network-class-15--10000-1640261741966/master.m3u8', 'secPlaybackUrl': None, 'chatGroupId': '2402', 'userId': '3701714', 'startDate': '2021-12-27 15:00:00', 'endDate': '2021-12-27 16:38:36', 'state': '5', 'drmState': '0', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'serverConfigId': '-100', 'applicationName': 'livehttporigin', 'urlPostFix': '/playlist.m3u8', 'primaryStream': '3828711-pr-computer-science-computer-network-class-15--10000-1640261741966', 'hostUrl': 'https://streamlive2cdn.toprankers.com', 'classroomHostUrl': 'rtmp://internal.toprankers.com:1935', 'isLiveCDN': '1', 'secureLiveUsingCookie': True, 'isDRM': 0, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 17:53:00] "POST /fetch HTTP/1.1" 200 1347
+{'data': {'itemId': '3070704', 'applicationjson': '{"app_name":"livehttporigin","ingest_url":"rtmp://streamlive2.toprankers.com:1935"}', 'primPlaybackUrl': 'https://signedsec.toprankers.com/livehttporigin/3070704/3070704-pr-computer-science-web-technology-html-css-java-script-xml-aspnet-class-3--10000-1624253131033/master.m3u8', 'secPlaybackUrl': None, 'chatGroupId': '2402', 'userId': '3701714', 'startDate': '2021-06-23 15:00:00', 'endDate': '2021-06-23 16:36:06', 'state': '5', 'drmState': '0', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'serverConfigId': '-100', 'applicationName': 'livehttporigin', 'urlPostFix': '/playlist.m3u8', 'primaryStream': '3070704-pr-computer-science-web-technology-html-css-java-script-xml-aspnet-class-3--10000-1624253131033', 'hostUrl': 'https://streamlive2cdn.toprankers.com', 'classroomHostUrl': 'rtmp://internal.toprankers.com:1935', 'isLiveCDN': '1', 'secureLiveUsingCookie': True, 'isDRM': 0, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[28/Dec/2021 18:02:57] "POST /fetch HTTP/1.1" 200 1463
+[28/Dec/2021 18:02:57] "GET /static/tailwind.js HTTP/1.1" 304 0
+[28/Dec/2021 18:29:21] code 400, message Bad request version ('À(À$À\x14À')
+[28/Dec/2021 18:29:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Dec/2021 01:40:43] "GET /static/tailwind.js HTTP/1.1" 200 310920
+[29/Dec/2021 01:40:43] "GET / HTTP/1.1" 200 2121993
+Not Found: /favicon.ico
+[29/Dec/2021 01:40:44] "GET /favicon.ico HTTP/1.1" 404 2781
+[29/Dec/2021 03:27:56,000] - Broken pipe from ('167.248.133.42', 55034)
+
+[29/Dec/2021 03:27:56] code 400, message Bad request version ('À\x14À')
+[29/Dec/2021 03:27:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Dec/2021 03:27:57] "GET / HTTP/1.1" 400 62968
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Dec/2021 03:27:58] "GET / HTTP/1.1" 400 63499
+[29/Dec/2021 04:45:19] "GET /static/tailwind.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Dec/2021 04:45:20] "GET /favicon.ico HTTP/1.1" 404 2781
+{'data': {'itemId': '2590219', 'applicationName': 'vidustreaming', 'classUrl': 'computer-science-os-class-2-2590219', 'primaryStream': '2590219-pr-computer-science-os-class-2-vidustreaming-1613047139281', 'streamOne': '', 'urlPostFix': '/playlist.m3u8', 'primPlaybackUrl': 'https://slhdovces.toprankers.com/vidustreaming/2590219/2590219-pr-computer-science-os-class-2-vidustreaming-1613047139281/2590219-pr-computer-science-os-class-2-vidustreaming-1613047139281.m3u8', 'secPlaybackUrl': '', 'userId': '3701714', 'startDate': '2021-02-12 17:00:00', 'endDate': '2021-02-12 18:36:36', 'state': '5', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[29/Dec/2021 04:45:44] "POST /fetch HTTP/1.1" 200 1492
+[29/Dec/2021 04:52:43] "GET / HTTP/1.1" 200 2121993
+[29/Dec/2021 04:52:43] "GET /static/tailwind.js HTTP/1.1" 200 310920
+Not Found: /favicon.ico
+[29/Dec/2021 04:52:43] "GET /favicon.ico HTTP/1.1" 404 2781
+{'data': {'itemId': '2583636', 'applicationName': 'vidustreaming', 'classUrl': 'computer-science-dbms-class-13-2583636', 'primaryStream': '2583636-pr-computer-science-dbms-class-13-vidustreaming-1612880364896', 'streamOne': '', 'urlPostFix': '/playlist.m3u8', 'primPlaybackUrl': 'https://slhdovces.toprankers.com/vidustreaming/2583636/2583636-pr-computer-science-dbms-class-13-vidustreaming-1612880364896/2583636-pr-computer-science-dbms-class-13-vidustreaming-1612880364896.m3u8', 'secPlaybackUrl': '', 'userId': '3701714', 'startDate': '2021-02-10 17:00:00', 'endDate': '2021-02-10 18:29:52', 'state': '5', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[29/Dec/2021 04:52:54] "POST /fetch HTTP/1.1" 200 1513
+[29/Dec/2021 04:56:50] "GET /static/tailwind.js HTTP/1.1" 200 310920
+[29/Dec/2021 04:56:50] "GET / HTTP/1.1" 200 2121993
+Not Found: /favicon.ico
+[29/Dec/2021 05:25:33] "GET /favicon.ico HTTP/1.1" 404 2781
+[29/Dec/2021 09:38:34,386] - Broken pipe from ('162.142.125.42', 37870)
+
+[29/Dec/2021 09:38:34] code 400, message Bad request version ('B\x82&T\x88LÜ\x82\x80G8Æ©\x92')
+[29/Dec/2021 09:38:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Dec/2021 09:38:36] "GET / HTTP/1.1" 400 62968
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Dec/2021 09:38:36] "GET / HTTP/1.1" 400 63499
+[29/Dec/2021 13:18:33] "GET /static/tailwind.js HTTP/1.1" 304 0
+[29/Dec/2021 13:18:36] "GET / HTTP/1.1" 200 2121993
+[H[2J[3J[29/Dec/2021 13:19:03] "GET /fetch_all HTTP/1.1" 200 60
+[29/Dec/2021 13:19:10] "GET / HTTP/1.1" 200 2121993
+[30/Dec/2021 01:53:48,847] - Broken pipe from ('167.94.138.42', 46544)
+
+[30/Dec/2021 01:53:49] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÿÅbà\x92]T@·\x11\x83Ü4Ã\xadM\x13\x8añ\x80t\x0e¤¢.ðã`¥J\x84')
+[30/Dec/2021 01:53:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Dec/2021 01:53:50] "GET / HTTP/1.1" 400 62967
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Dec/2021 01:53:51] "GET / HTTP/1.1" 400 63498
+Invalid HTTP_HOST header: 'ip-122-176-3-67.ip.secureserver.net:50001'. You may need to add 'ip-122-176-3-67.ip.secureserver.net' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Dec/2021 05:04:52] "GET / HTTP/1.1" 400 64815
+Invalid HTTP_HOST header: 'ip-122-176-3-67.ip.secureserver.net:50001'. You may need to add 'ip-122-176-3-67.ip.secureserver.net' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[30/Dec/2021 05:04:54] "GET /favicon.ico HTTP/1.1" 400 64895
+[30/Dec/2021 06:36:11,853] - Broken pipe from ('162.142.125.60', 43972)
+
+[30/Dec/2021 06:36:12] code 400, message Bad request version ('À\x14À')
+[30/Dec/2021 06:36:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Dec/2021 06:36:13] "GET / HTTP/1.1" 400 62968
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Dec/2021 06:36:14] "GET / HTTP/1.1" 400 63499
+Invalid HTTP_HOST header: 'ip-122-176-3-67.ip.secureserver.net:50001'. You may need to add 'ip-122-176-3-67.ip.secureserver.net' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[30/Dec/2021 08:35:00] "GET /favicon.ico HTTP/1.1" 400 64895
+[30/Dec/2021 16:30:23] "GET / HTTP/1.1" 200 2121993
+[30/Dec/2021 16:30:24] "GET /static/tailwind.js HTTP/1.1" 200 310920
+Not Found: /favicon.ico
+[30/Dec/2021 16:30:26] "GET /favicon.ico HTTP/1.1" 404 2781
+[31/Dec/2021 05:23:52] code 400, message Bad request version ('À(À$À\x14À')
+[31/Dec/2021 05:23:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Jan/2022 15:52:09] "GET / HTTP/1.1" 400 63499
+[02/Jan/2022 07:30:49,414] - Broken pipe from ('167.94.138.59', 42020)
+
+[02/Jan/2022 07:30:49] code 400, message Bad request version ('À\x14À')
+[02/Jan/2022 07:30:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Jan/2022 07:30:51] "GET / HTTP/1.1" 400 62967
+Invalid HTTP_HOST header: '122.176.3.67:50001'. You may need to add '122.176.3.67' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Jan/2022 07:30:51] "GET / HTTP/1.1" 400 63498
+[04/Jan/2022 03:03:04,706] - Broken pipe from ('167.248.133.116', 53916)
+
+[04/Jan/2022 03:03:04] code 400, message Bad request version ('À\x14À')
+[04/Jan/2022 03:03:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '27.58.121.58:50001'. You may need to add '27.58.121.58' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Jan/2022 03:03:06] "GET / HTTP/1.1" 400 62969
+Invalid HTTP_HOST header: '27.58.121.58:50001'. You may need to add '27.58.121.58' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Jan/2022 03:03:07] "GET / HTTP/1.1" 400 63500
+Invalid HTTP_HOST header: 'manu-VirtualBox:50001'. You may need to add 'manu-virtualbox' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Jan/2022 04:43:29] "GET / HTTP/1.0" 400 62874
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+January 06, 2022 - 17:21:30
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://0.0.0.0:50001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+January 06, 2022 - 17:22:20
+Django version 4.0, using settings 'project.settings'
+Starting development server at http://0.0.0.0:50002/
+Quit the server with CONTROL-C.
+[06/Jan/2022 17:22:25] "GET / HTTP/1.1" 200 2121993
+[06/Jan/2022 17:40:09] "GET /static/tailwind.js HTTP/1.1" 200 310920
+[06/Jan/2022 17:40:10] "GET / HTTP/1.1" 200 2121993
+Not Found: /favicon.ico
+[06/Jan/2022 17:40:11] "GET /favicon.ico HTTP/1.1" 404 2781
+{'data': {'itemId': '3344927', 'applicationjson': '{"app_name":"livehttporigin","ingest_url":"rtmp://streamlive2.toprankers.com:1935"}', 'primPlaybackUrl': 'https://signedsec.toprankers.com/livehttporigin/3344927/3344927-pr-computer-science-basic-computer-class-3--10000-1628788069772/master.m3u8', 'secPlaybackUrl': None, 'chatGroupId': '2402', 'userId': '3701714', 'startDate': '2021-08-13 15:00:00', 'endDate': '2021-08-13 16:29:17', 'state': '5', 'drmState': '0', 'logoUrl': '', 'slideShow': '0', 'primaryUrl': None, 'secondaryUrl': None, 'serverConfigId': '-100', 'applicationName': 'livehttporigin', 'urlPostFix': '/playlist.m3u8', 'primaryStream': '3344927-pr-computer-science-basic-computer-class-3--10000-1628788069772', 'hostUrl': 'https://streamlive2cdn.toprankers.com', 'classroomHostUrl': 'rtmp://internal.toprankers.com:1935', 'isLiveCDN': '1', 'secureLiveUsingCookie': True, 'isDRM': 0, 'jwPlayerLicenseKey': 'Kl4x01CwJKjgJt76K3gToZ50zHkNllHyRSbiszCm4pQ=', 'activePlayer': 1, 'signedCookieHost': 'https://www.toprankers.com', 'vjsVod1Secure': True, 'vjsVod2Secure': True}, 'result': {'state': 'ok', 'meta': None}}
+[06/Jan/2022 17:40:49] "POST /fetch HTTP/1.1" 200 1335
+[07/Jan/2022 00:42:15,136] - Broken pipe from ('162.142.125.41', 52474)
+
+[07/Jan/2022 00:42:15] code 400, message Bad request version ('À\x14À')
+[07/Jan/2022 00:42:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '182.68.112.246:50001'. You may need to add '182.68.112.246' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Jan/2022 00:42:17] "GET / HTTP/1.1" 400 61638
+Invalid HTTP_HOST header: '182.68.112.246:50001'. You may need to add '182.68.112.246' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Jan/2022 00:42:18] "GET / HTTP/1.1" 400 62169
+Not Found: /favicon.ico
+[07/Jan/2022 02:11:09] "GET /favicon.ico HTTP/1.1" 404 2781
+[07/Jan/2022 02:21:30,474] - Broken pipe from ('106.201.22.190', 39140)
+
+[07/Jan/2022 04:20:27] "GET / HTTP/1.1" 200 2121993
+[07/Jan/2022 04:24:58,534] - Broken pipe from ('49.32.215.82', 49306)
+

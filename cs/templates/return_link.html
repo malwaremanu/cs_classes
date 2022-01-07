@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{%block 'content' %}
+
+<div class="bg-pink-200 p-3 text-pink-600">
+    Refresh the links
+</div>
+
+
+<form action="fetch" method="POST" id='forms' class="bg-blue-300 p-3" 
+x-data ="{
+    current_link : ''
+}">
+
+<div class="hidden">
+    <h1 class="title">Enter the Link here.</h1>           
+    <input type="text" class="p-1 border borrder-blue-400" name="link"  id="submi">
+    <button class="button is-link" type="submit"> Search </button>
+</div>
+    
+
+<div class="bg-green-50 p-3" x-data="{        
+        cng_link(x){
+            this.current_link = x
+            console.log('Clicked here to go into')
+            // console.log(this.current_link) 
+            document.getElementById('submi').value = x              
+            setTimeout(document.getElementById('forms').submit(), 5000);
+        }
+    }">
+
+
+
+    <div x-data="{
+        jdata : {{ jdata|safe }}.data[0] 
+       }">           
+        <template x-for="j in jdata">
+            <div class="border border-green-200 p-1 cursor-pointer hover:bg-green-300"
+                x-data="{
+                   data : j,
+                   url : 'https://live.eurekaacademy.co.in' + j.link[0],
+                   th_url : '',
+
+                   fn(){
+                       console.log(j)
+                       console.log(this.url)
+                       this.th_url = this.url
+                   }
+               }" x-init="fn" @click='cng_link(th_url)'> 
+                   <div x-text="j.title"></div>
+
+                   <div>
+                    <span x-text="url"></span>
+                   </div>
+            </div>
+        </template>       
+    </div>   
+</div>
+</form>
+
+{%endblock%}

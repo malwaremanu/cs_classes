@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block 'title' %}
+Fetched Video.
+{%endblock%}
+
+{% block 'content' %}
+<div class="bg-green-100 p-3">
+
+<b>{{ title }} </b>
+<iframe src="{{ cookie_url }} " height='0' width='0' style="display:none;"></iframe>
+
+<br>
+
+{% if video == None %}
+    Video Unavailable right now. Please check back later.
+{% else %}
+    <div class="gap-2">
+        <a class="px-4 py-2 bg-blue-700 text-white rounded-md" target="_blank"  href="{{ video }}">View</a>
+        <a class="px-4 py-2 bg-green-700 text-white rounded-md" target="_blank" href="https://mediatools.cc/hlsDownloader?query={{ video }}">Download</a>
+    </div>
+{% endif %}
+</div>
+{% endblock %}
